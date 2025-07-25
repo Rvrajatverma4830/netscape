@@ -1,0 +1,636 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family:  Roboto, sans-serif;
+}
+
+  .container{
+    max-width: 85%;
+    margin: 0 auto;
+    padding:0 10px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .container{
+        max-width:100%;
+    }
+  }
+
+  header {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .img img {
+    max-height: 45px;
+  }
+  .nav-link {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+  }
+  .nav-link li {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .nav-link li a {
+    color: #FFFFFF; 
+  }
+  .b-img-homepage{
+    padding: 200px 0;
+    background-image: url(/Images/unsplash_x2Tmfd1-SgA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .b-img-about{
+    padding: 200px 0;
+    background-image: url(/Plants/about-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .b-img-shop{
+    padding: 200px 0;
+    background-image: url(/Plants/shop-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .b-img-contact{
+    padding: 200px 0;
+    background-image: url(/Plants/contact-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;  
+  }
+  .img-sec h1{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .img-sec p{
+    padding-top: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 400px;
+ }
+
+ .img-sec-about h1{
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.img-sec-about p{
+  padding-top: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+.shop-now{
+  margin-top: 55px;
+}
+ .shop a{
+  color:#0a0a0a;
+  background-color:#FFFFFF;
+  font-size: 12px;
+  font-weight: 300; 
+  padding: 10px;
+  text-decoration: none; 
+ }
+.plants{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+ .plants p{
+    font-size: 24px;
+    font-weight: 600;
+ }
+ .plants a{
+    color: #FFFFFF;
+    background-color: #6ADE64;
+    font-size: 12px;
+    font-weight: 300; 
+    padding: 10px;
+    text-decoration: none; 
+ }
+ img {
+    display: block;
+    width: 100%;
+}
+body {
+    font-family:  Roboto, sans-serif;
+}
+.card-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.card-container .card {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+.card-container .card h3 {
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-container .card p {
+    color: #5a5a5a;
+    margin: 8px 0;
+    font-size: 12px;
+    font-weight: 300;
+}
+.card-container .card h5 {
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-container .card i {
+    color: #6ADE64;
+    font-size:14px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.story{
+  margin-bottom: 40px;
+}
+.our-story{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.our-story div {
+      flex-basis: 350px;
+      flex-grow: 1;
+}
+.our-story h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.our-story p{
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 10px;
+    color: #5a5a5a;
+}
+.our-story.reverse {
+  flex-direction: row-reverse;
+}
+
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+}
+.overlay-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  max-width: 18px; 
+}
+.features h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+.wrap{
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+.wrapper {
+    display: flex;
+    flex-basis: 400px;
+    flex-grow: 1;
+    gap:25px;
+    align-items: flex-start;
+  }
+  
+  .wrapper img {
+    max-width: 35px;        
+  }
+  
+  .wrapper h2 {
+    font-size: 24px; 
+    font-weight: 600;     
+  }
+  
+  .wrapper p{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 5px 0px; 
+    color: #5a5a5a; 
+  }
+
+  .img-fill{
+    padding: 155px 0;
+    background-image: url(/Plants/cta\ banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:60px ;
+    background-position: center;
+  }
+  .img-fill h1{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .img-fill p{
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .shop-bt{
+    margin-top: 45px;
+  }
+  .shop-bt a{
+    color:#0a0a0a;
+    background-color:#FFFFFF;
+    font-size: 12px;
+    font-weight: 300; 
+    padding: 10px;
+    text-decoration: none; 
+   }
+
+
+  .customers h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+   .cust {
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+ }
+  .custom {
+    display: flex;
+    flex-basis: 200px;
+    flex-grow: 1;
+    gap:15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+ }
+ .custom img{
+  width:44px; 
+ }
+.custom p{
+  font-size: 14px;
+  font-weight: 300;
+  color: #5a5a5a;    
+}
+.custom h6{
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: #5a5a5a;
+  font-weight: bolder;
+}
+
+.letter{
+  background-image: url(/Images/newsletter-bg\ 1.jpg);
+  padding: 80px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.letter p{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.letters{
+  display: flex;
+  gap: 10px;
+  padding-top: 40px;
+  margin: auto;
+  justify-content: center;
+  max-width: 800px;
+}
+.letters input{
+display: block;
+width: 100%;
+border: none;
+color:#5a5a5a;
+background-color: #FFFFFF;
+padding: 12px 12px;
+flex-basis: 520px;
+border-radius: 5px;
+}
+.letters button{
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #0a0a0a;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 5px;
+  flex-basis: 200px;
+  border-radius: 5px;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0 0;
+    background-color: #0a0a0a;
+    align-items: center;
+  }
+
+  .footer img{
+    max-width: 120px;
+  }
+
+  .nav-footer{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    gap: 40px;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+  .i-bar{
+    display: flex;
+    gap: 22px;
+    margin-top: 15px;
+  }
+
+  .i-bar i{
+    color: #FFFFFF;
+  }
+  
+  .footer-border-line {
+    width: 100%;
+    border-top:  1px solid grey;
+    margin-top: 80px;
+    padding: 20px 15px;
+  }
+  .footer-border-line p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  /* cart */
+.checkbox-item{
+  position: relative;
+}
+.checkbox-item input{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #6ADE64;
+}
+
+.shop-crt {
+padding-top: 40px;
+}
+.cart{
+  padding-top: 40px;
+}
+
+
+.cart-card{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+  .cart1{
+  display: flex;
+  padding: 12px;
+  flex-basis: 250px;
+  flex-grow: 1;
+  border: 0.5px solid grey;
+  position: relative;
+  }
+
+  .cart1 img{
+    max-width: 80px;
+  }
+  .shop-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .shop-cart h6{
+    font-size: 14px;
+    font-weight: 300;
+    color: #5a5a5a;
+  }
+  .shop-cart p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #5a5a5a;
+  }
+  
+ .btn{
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  border: none;
+  background-color: transparent;
+ }
+
+ .cart2{
+  border: 0.5px solid grey;
+  flex-basis: 80px;
+  flex-grow: 1;
+  padding: 12px;
+  flex-direction: column  ;
+ }
+
+ .crt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .left h3{
+font-size: 24px;
+font-weight: 600;
+ }
+ .left p{
+  font-size: 14px;
+  font-weight: 300;
+  color: #5a5a5a;
+ }
+ .shp{
+  margin-top: 75px;
+ }
+.shp a{
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #6ADE64;
+  font-size: 14px; 
+  font-weight: 300;
+  padding: 5px;
+  text-decoration: none;
+}
+.like-card{
+  padding-bottom: 40px;
+}
+
+.adjustment {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 10px;
+  align-items: flex-start;
+  padding: 15px 0;
+}
+
+.marker1 {
+  color: #6ADE64;
+  font-size: 24px;
+  font-weight: 600; 
+}
+
+
+.address h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.address p {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 4px 0 0;
+  max-width: 200px;
+}
+
+
+.number h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.number p {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 4px 0 0;
+  max-width: 180px;
+}
+.marker2 {
+  color: #6ADE64;
+  font-size: 24px; 
+  font-weight: 600;
+}
+
+
+  .contact-info {
+    display: flex;
+    gap: 40px; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+  }
+  .btn-wrapper {
+    display: flex;
+    justify-content: flex-end; 
+  }
+ .info-section{
+  flex: 1;
+ } 
+
+.message {
+  display: flex;
+  flex-direction: column; 
+  margin-top: 10px;
+}
+
+
+.message h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.message label {
+  display: block;
+  margin: 8px 0 4px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+.message input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 0.5px solid #ccc;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.message button {
+  background-color: #6ADE64;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .navbar ul{
+        display:none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
